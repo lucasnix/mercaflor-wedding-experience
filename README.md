@@ -47,7 +47,7 @@ With Python installed, run:
 
 python -m http.server 8765
 
-Then open http://localhost:8765.
+Then open https://web.clicpic.co/mercaflor/.
 
 ## Current limitations
 
