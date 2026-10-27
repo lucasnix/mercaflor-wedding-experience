@@ -1,0 +1,91 @@
+:root{--cream:#f1e9e0;--ink:#281e24;--muted:#837477;--line:#d1c3c2}body{background:#211a1d}header{position:absolute;z-index:8}header nav{display:none}.brand{width:85px;height:70px}.brand img{width:85px}.bloom-scroll{height:310svh;position:relative;background:#211a1d}.bloom-stage{height:100svh;min-height:620px;position:sticky;top:0;overflow:hidden;isolation:isolate;color:var(--cream)}.scene-light{position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,#60404b70 0%,transparent 60%),linear-gradient(115deg,#16181a,#302029)}#flowerCanvas{position:absolute;width:76%;height:100%;right:-9%;top:-1%;z-index:2}.scene-title{position:absolute;left:7%;top:35%;z-index:3;pointer-events:none;max-width:70%}.scene-title h1{font-size:clamp(68px,8.5vw,150px);letter-spacing:-.055em;line-height:.95;margin:28px 0 28px}.scene-title h1 em{color:#e9bbba;margin-left:6vw}.scene-title>p:last-child{font-size:12px;max-width:280px;line-height:1.7;color:#d5c5c6}.scene-title .eyebrow{font-size:8px;letter-spacing:.22em}.scene-caption{position:absolute;left:7%;right:7%;bottom:33px;display:flex;justify-content:space-between;border-top:1px solid #d4afb83a;padding-top:22px;z-index:4;font-size:9px;letter-spacing:.17em}.scene-dial{position:absolute;right:7%;bottom:100px;width:75px;height:75px;display:grid;place-items:center;z-index:3}.scene-dial svg{position:absolute;inset:0;transform:rotate(-90deg)}.scene-dial circle{fill:none;stroke:#c7a0ab30;stroke-width:1}.scene-dial circle+circle{stroke:#e7c3ac;stroke-width:2;stroke-dasharray:289;stroke-dashoffset:289}.scene-dial span{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:26px}.scene-word{position:absolute;left:-1%;bottom:6%;font-family:'Cormorant Garamond',serif;line-height:.7;font-size:25vw;letter-spacing:-.06em;color:#ebbac608;pointer-events:none}.scene-fallback{display:none}.no-webgl .scene-fallback{display:block;position:absolute;width:100%;height:100%;object-fit:cover;opacity:.3}.no-webgl #flowerCanvas{display:none}.story{background:var(--cream)}.story-layout h2{font-size:clamp(48px,6.3vw,100px)}.story-copy .floral-symbol{color:#9d405d}.moments{padding:0;background:#211a1d;color:var(--cream)}.moments>.section-heading{padding:90px 8% 45px;margin:0}.gallery{display:block}.gallery-card,.gallery-card.offset,.gallery-card.wide{display:block;width:100%;margin:0;padding:0;position:relative;overflow:hidden}.gallery-card .image-wrap{height:85svh;min-height:500px;aspect-ratio:auto}.gallery-card img{object-position:center 55%;filter:brightness(.65)}.gallery-card:nth-child(2) .image-wrap{height:95svh}.gallery-card .caption{position:absolute;bottom:10%;left:8%;right:8%;z-index:2;display:block;padding:0}.gallery-card .caption h3{font-size:clamp(44px,6.5vw,95px);max-width:700px;margin-bottom:18px}.gallery-card .caption>span{font-size:10px;letter-spacing:.2em}.image-index{font-family:'Cormorant Garamond',serif;font-size:45px;left:8%;top:7%;font-style:italic}.image-arrow{right:8%;bottom:12%;background:transparent;color:white;border:1px solid #fff7;width:52px;height:52px}.experience{background:#34252e}.quote-section.hero{height:70svh;min-height:500px;max-height:800px}.quote-section video{z-index:1}.quote-shade{z-index:2;pointer-events:none}.quote-section p{z-index:3;pointer-events:none}.quote-section #videoToggle{position:absolute;bottom:35px;z-index:4;background:#ffffff10;border:1px solid #ffffff70;color:white;padding:12px 24px;border-radius:40px}.contact{background:var(--cream)}footer{background:var(--cream)}.scene-progress{position:absolute;bottom:0;left:0;width:calc(var(--bloom,0)*100%);height:2px;background:#c892a6;z-index:5}@media(max-width:700px){.bloom-scroll{height:280svh}.bloom-stage{min-height:620px}.scene-title{top:auto;bottom:22%;max-width:94%;left:7%}.scene-title h1{font-size:clamp(53px,12.9vw,90px);margin:20px 0}.scene-title h1 em{margin-left:5vw}.scene-title .eyebrow{font-size:7px}.scene-title>p:last-child{font-size:11px;max-width:240px}#flowerCanvas{width:140%;height:78%;right:-31%;top:-8%}.scene-caption{font-size:7px;gap:20px;bottom:25px}.scene-dial{width:52px;height:52px;bottom:105px}.scene-word{bottom:9%;font-size:28vw}.moments>.section-heading{padding:65px 7% 35px}.gallery-card .image-wrap{height:78svh;min-height:450px}.gallery-card .caption{left:7%;bottom:12%;max-width:80%}.gallery-card .caption h3{font-size:47px;max-width:330px}.image-arrow{bottom:4%;width:40px;height:40px}.image-index{font-size:33px}.quote-section.hero{min-height:450px}.brand{height:60px;width:75px}.brand img{width:75px}.scene-caption span:last-child{max-width:130px;text-align:right}}
+@media(prefers-reduced-motion:reduce){.bloom-scroll{height:180svh}}
+
+/* Mercaflor's four botanical accents, against quiet editorial surfaces. */
+:root{--aqua:#39bac2;--lime:#8dbb28;--gold:#f3b71b;--purple:#833a91;--ink:#24242a}
+header .brand{position:relative;display:block;flex-shrink:0;width:170px;height:104px;background:transparent;mix-blend-mode:screen;border-radius:0}
+header .brand img{position:absolute;width:230px;max-width:none;height:auto;left:-30px;top:-48px;margin:0}
+.scene-light{background:radial-gradient(ellipse at 82% 27%,#833a9130,transparent 55%),radial-gradient(ellipse at 23% 64%,#39bac218,transparent 55%),#171b1d}
+.scene-title h1 em{color:#f0dfc8}.scene-title .eyebrow{color:#a4d7d5}
+.scene-progress{background:linear-gradient(90deg,var(--aqua) 0% 25%,var(--lime) 25% 50%,var(--gold) 50% 75%,var(--purple) 75%)}
+.scene-dial circle+circle{stroke:var(--gold)}.nav-cta{border-color:#39bac280}.nav-cta:hover{background:#39bac220}
+.story>.eyebrow,.story-copy .floral-symbol{color:#637e19}.story h2 em{color:#71377e}.story .text-link{border-color:var(--aqua)}
+.moments>.section-heading .eyebrow{color:var(--aqua)}.moments .small-note{color:#c6c7c7}
+.gallery-card:nth-child(1) .caption>span{color:#b6e0e1}.gallery-card:nth-child(2) .caption>span{color:#e5f0bc}.gallery-card:nth-child(3) .caption>span{color:#ffe09a}
+.experience{background:#24232a}.experience .eyebrow{color:#c2d98b}.steps article:nth-child(1)>span{color:var(--aqua)}.steps article:nth-child(2)>span{color:var(--lime)}.steps article:nth-child(3)>span{color:var(--gold)}
+.contact .eyebrow{color:#71377e}.contact .submit{background:#71377e}.contact .submit:hover{background:#55265f}.contact input:focus,.contact textarea:focus,.contact select:focus{outline:2px solid #23848a}
+@media(max-width:700px){header .brand{width:120px;height:87px}header .brand img{width:190px;left:-35px;top:-39px}header{align-items:flex-start}.header-right{padding-top:13px}}
+
+header .brand{height:89px;mix-blend-mode:normal}header .brand img{filter:url(#logo-knockout)}
+@media(max-width:700px){header .brand{height:72px}}
+
+@media(min-width:701px){#flowerCanvas{height:90%;top:3%}}
+
+@media(min-width:701px){.scene-title h1{font-size:clamp(60px,7.2vw,130px)}#flowerCanvas{height:82%;top:6%}}
+
+/* Separate visual and copy areas on phones: no flower can cross the heading. */
+.image-arrow::after{content:"";width:11px;height:11px;border-top:1px solid currentColor;border-right:1px solid currentColor;transform:rotate(0deg)}
+@media(max-width:700px){
+ .bloom-stage{height:100svh;min-height:0}
+ #flowerCanvas{left:0;right:auto;top:90px;width:100%;height:calc(53% - 90px);pointer-events:none}
+ .scene-title{left:7%;right:7%;top:56%;bottom:auto;width:86%;max-width:none}
+ .scene-title h1{font-size:clamp(40px,11vw,70px);line-height:1;letter-spacing:-.045em;margin:13px 0 15px}
+ .scene-title h1 em{margin-left:0}
+ .scene-title .eyebrow{font-size:7px;letter-spacing:.14em}
+ .scene-title>p:last-child{max-width:74%;font-size:11px;line-height:1.55}
+ .scene-dial{bottom:65px;width:40px;height:40px}
+ .scene-dial span{font-size:20px}
+ .scene-caption{bottom:17px;padding-top:13px;font-size:7px}
+ .scene-word{bottom:6%;font-size:26vw}
+}
+@media(max-width:700px) and (max-height:560px){
+ #flowerCanvas{top:70px;left:43%;width:57%;height:calc(100% - 120px)}
+ .scene-title{top:31%;width:48%;right:auto}
+ .scene-title h1{font-size:clamp(29px,6vw,42px)}
+ .scene-title>p:last-child{max-width:100%;font-size:10px}
+ .scene-title .eyebrow{font-size:6px}
+}
+
+/* Wedding setting: photograph above, soft ivory behind the editorial copy. */
+.bloom-scroll{background:#f4eee4}.bloom-stage{color:#303c33}
+.scene-light{background:url('assets/ceremony.jpg') center 56%/cover no-repeat}
+.scene-light::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,32,22,.52),transparent 25%,rgba(249,244,233,.2) 42%,#f4eee4 92%),linear-gradient(90deg,rgba(244,238,228,.88),rgba(244,238,228,.12) 72%)}
+.scene-title h1 em{color:#7d4e5c}.scene-title .eyebrow{color:#426455}.scene-title>p:last-child{color:#49554a}
+.scene-caption{border-color:#66765c40;color:#465744}.scene-dial circle{stroke:#65755b40}.scene-dial circle+circle{stroke:#8d7038}.scene-word{color:#6e77550c}
+@media(max-width:700px){
+ .scene-light{background-position:center 43%}
+ .scene-light::after{background:linear-gradient(180deg,rgba(10,29,18,.48),rgba(20,40,25,.05) 36%,rgba(244,238,228,.44) 54%,#f4eee4 76%)}
+ #flowerCanvas{top:80px;height:calc(60% - 80px)}
+ .scene-title{top:63%}
+ .scene-title h1{font-size:clamp(38px,10.5vw,66px);margin:10px 0 12px}
+ .scene-title>p:last-child{font-size:10px;max-width:76%}
+ .scene-dial{bottom:53px}
+}
+@media(max-width:700px) and (max-height:560px){
+ #flowerCanvas{top:70px;height:calc(100% - 120px)}.scene-title{top:31%}
+ .scene-title h1{font-size:clamp(29px,6vw,42px)}
+ .scene-light::after{background:linear-gradient(90deg,#f4eee4dd,rgba(244,238,228,.25)),linear-gradient(180deg,#102a2860,transparent 30%)}
+}
+
+/* Bouquet backdrop with restrained scroll-driven movement and a dark fade. */
+.bloom-scroll{background:#17201c}.bloom-stage{color:#f5eee4}
+.scene-light{background:#17201c;overflow:hidden}
+.scene-light::before{content:"";position:absolute;inset:-5%;background:url('assets/bouquet.jpg') center 44%/cover no-repeat;filter:brightness(.65) saturate(.75) blur(2px);transform:translateY(calc(var(--bloom,0)*-18px)) scale(calc(1.04 + var(--bloom,0)*.045));}
+.scene-light::after{background:linear-gradient(90deg,rgba(16,28,23,.83),rgba(16,28,23,.12) 75%),linear-gradient(180deg,rgba(10,20,16,.25),rgba(16,28,23,.1) 40%,#17201c 96%)}
+.scene-title h1 em{color:#edcbbf}.scene-title .eyebrow{color:#c1d4c5}.scene-title>p:last-child{color:#e1e4da}
+.scene-caption{border-color:#d0d9c83d;color:#d2d9ca}.scene-dial circle{stroke:#d0d9c83d}.scene-dial circle+circle{stroke:#dab97c}.scene-word{color:#e4e7d909}
+@media(max-width:700px){.scene-light::after{background:linear-gradient(180deg,rgba(10,20,16,.35),rgba(16,28,23,.18) 34%,rgba(16,28,23,.75) 58%,#17201c 84%)}}
+@media(prefers-reduced-motion:reduce){.scene-light::before{transform:none}}
+
+/* Wedding film: small, silent montage with a photograph fallback. */
+#sceneFilm{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:0;transition:opacity 1.2s;filter:saturate(.78) brightness(.88)}
+.film-ready #sceneFilm{opacity:1}
+.scene-light::after{z-index:1;pointer-events:none}
+#flowerCanvas{opacity:clamp(.12,calc(1.12 - var(--bloom,0)*1.05),1)}
+.scene-film-toggle{position:absolute;z-index:8;right:7%;top:115px;width:36px;height:36px;border:1px solid #ffffff50;border-radius:50%;background:#17201c55;color:#fff;cursor:pointer;display:grid;place-items:center}
+.scene-film-toggle::before{content:"";width:7px;height:11px;border-left:2px solid currentColor;border-right:2px solid currentColor}
+.scene-film-toggle.is-paused::before{width:0;height:0;border:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid currentColor;margin-left:2px}
+.scene-film-toggle[hidden]{display:none}
+.scene-film-toggle:focus-visible{outline:2px solid #edcbbf;outline-offset:4px}
+@media(max-width:700px){.scene-film-toggle{top:85px;right:6%;width:30px;height:30px}#sceneFilm{object-position:52% center}}
+@media(prefers-reduced-motion:reduce){#sceneFilm{display:none}#flowerCanvas{opacity:1}}
